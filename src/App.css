@@ -20,3 +20,11 @@
 .App-link {
   color: #09d3ac;
 }
+
+#left {
+  text-align: left;
+}
+
+#right {
+  text-align: right;
+}
