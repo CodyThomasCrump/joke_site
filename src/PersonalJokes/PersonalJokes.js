@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './PersonalJokes.css'
+import JokeDisplay from '../JokeDisplay/JokeDisplay';
+import './PersonalJokes.css'; 
 
 class PersonalJokes extends Component {
     render() {
