@@ -1,0 +1,27 @@
+.randomJokes {
+    text-align: left;
+  } 
+  
+.randomPun {
+    text-align: right;
+}
+    
+.randomJokesButton {
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 285px;
+    float: left;
+}
+
+.randomPunButton {
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 250px;
+    float: right;
+}
