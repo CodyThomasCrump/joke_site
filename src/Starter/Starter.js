@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
 
-<button onClick >
-    
-</button>
+class Starter extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = { textFieldValue: ''}
+    }
+    }
+
+
+
+export default Starter

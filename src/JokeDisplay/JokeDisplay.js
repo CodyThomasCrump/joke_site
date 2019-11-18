@@ -5,7 +5,15 @@ import './JokeDisplay.css';
 
 class JokeDisplay extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = { joke: {} }
+    }
+
     getJokes = () => {
+
+        let _this = this;
+
         axios({
             // We can configure everything we need to know about the HTTP request in here
             method: 'GET',
@@ -13,6 +21,7 @@ class JokeDisplay extends Component {
         })
         .then(function (response) {
             console.log(response);
+            _this.setState({ joke: { setup: response.data.setup, punchline: response.data.punchline }});
         })
         .catch(function (error) {
             console.log(error);
@@ -21,9 +30,11 @@ class JokeDisplay extends Component {
     
     render() {
         return (
-            <div className='random'>
+            <div classNam e='random'>
                 <h1>Get Random Joke</h1>
-                <button onClick={this.getJokes}>Submit</button>
+                <button onClick={this.getJokes}>Click here for a random joke :)</button>
+                <p>{this.state.joke.setup}</p>
+                <p>{this.state.joke.punchline}</p>
             </div>
         )
     }
