@@ -1,5 +1,6 @@
 .punContainer {
     float: right;
+    width: 271px;
 }
 
 .randomPun {
@@ -12,7 +13,6 @@
     color: white;
     border-radius: 4px;
     height: 50px;
-    width: 270px;
+    width: 271px;
     display: block;
-    float: right;
 }
