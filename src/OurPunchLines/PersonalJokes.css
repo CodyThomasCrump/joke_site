@@ -1,0 +1,18 @@
+.punContainer {
+    float: right;
+}
+
+.randomPun {
+    display: block;
+}
+
+.randomPunButton {
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 270px;
+    display: block;
+    float: right;
+}

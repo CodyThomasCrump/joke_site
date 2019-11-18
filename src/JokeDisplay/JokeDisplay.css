@@ -1,3 +1,31 @@
-.random {
+body {
+    background-color: lightblue;
+}
+
+.randomJokes {
+    display: block;
+  } 
+    
+.randomJokesButton {
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 285px; 
+    display: block;
+}
+
+.jokeContainer {
     float: left;
 }
+
+button:hover {
+    background-color: black;
+    transition-duration: 5s
+}
+
+button:focus{
+    outline: none;
+}
+
