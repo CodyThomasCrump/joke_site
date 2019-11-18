@@ -1,10 +1,10 @@
-.randomJokes {
-    text-align: left;
-  } 
-  
-.randomPun {
-    text-align: right;
+body {
+    background-color: lightblue;
 }
+
+.randomJokes {
+    display: block;
+  } 
     
 .randomJokesButton {
     background-color: blue;
@@ -12,16 +12,20 @@
     color: white;
     border-radius: 4px;
     height: 50px;
-    width: 285px;
+    width: 285px; 
+    display: block;
+}
+
+.jokeContainer {
     float: left;
 }
 
-.randomPunButton {
-    background-color: blue;
-    border: none;
-    color: white;
-    border-radius: 4px;
-    height: 50px;
-    width: 250px;
-    float: right;
+button:hover {
+    background-color: black;
+    transition-duration: 5s
 }
+
+button:focus{
+    outline: none;
+}
+

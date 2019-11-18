@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import JokeDisplay from './JokeDisplay/JokeDisplay';
-import PersonalJokes from './PersonalJokes/PersonalJokes';
+import PersonalJokes from './PersonalJokes/PersonalJokes'
 
 function App() {
   
