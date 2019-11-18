@@ -29,9 +29,9 @@ class PersonalJokes extends Component {
         return (
             <div className="punContainer">
                 <h1 className="randomPun">Get Random Puns</h1>
-                <button className="randomPunButton">Click Here For Random Puns</button>
-                <p>{this.state.setup}</p>
-                <p>{this.state.punchline}</p>
+                <button onClick={this.handleClick} className="randomPunButton">Click Here For Random Puns</button>
+                <p className="punParagraph">{this.state.setup}</p>
+                <p className="punParagraph">{this.state.punchline}</p>
             </div>
         )
     }
