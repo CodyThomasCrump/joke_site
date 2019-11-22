@@ -29,3 +29,30 @@
   text-align: right;
 }
 
+.rickroll {
+  position:fixed;
+  bottom:0px;
+  left:0%;
+  height: 31%
+}
+
+.clickme {
+  position: fixed;
+  bottom: 0px;
+  right: 0%;
+  height: 35%
+}
+
+.mainheader {
+  text-align: center;
+}
+
+.members {
+  text-align: center;
+}
+
+.WebM {
+  display: block;
+  margin-left: 49%;
+  margin-right: 49%;
+}
